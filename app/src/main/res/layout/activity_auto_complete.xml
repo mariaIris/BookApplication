@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientacion = "vertical"
+    tools:context=".AutoComplete"
+    android:orientation="vertical">
+
+    <AutoCompleteTextView
+        android:id="@+id/autcomplete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:completionHint="Digite o titulo:"
+        android:completionThreshold="1"
+        android:hint="@string/livro"      />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Title:"/>
+
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text=""/>
+
+
+</LinearLayout>

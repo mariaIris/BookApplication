@@ -1,0 +1,6 @@
+<root>
+    <item
+        name='androidx.core.view.OneShotPreDrawListener androidx.core.view.OneShotPreDrawListener add(android.view.View, java.lang.Runnable)'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

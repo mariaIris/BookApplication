@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BookApplication</string>
+    <string name="cancelar">cancelar</string>
+    <string name="salvar">salvar</string>
+    <string name="digite_o_titulo">digite o titulo</string>
+    <string name="digite_o_nome_do_autor">digite o nome do autor</string>
+    <string name="digite_o_ano_de_lancamento">digite o ano de lancamento</string>
+    <string name="autor">autor</string>
+    <string name="ano_de_lancamento" />
+    <string name="nota" />
+    <string name="anterior" />
+    <string name="proximo" />
+    <string name="cadastrar_novo" />
+    <string name="listar_livros" />
+    <string name="cadastrar_livros" />
+    <string name="buscar" />
+    <string name="deletar" />
+    <string name="list_view" />
+    <string name="gridview" />
+    <string name="recycler_view" />
+    <string name="swipe_e_dragdrop" />
+    <string name="pageview" />
+    <string name="auto_complete" />
+    <string name="livro" />
+    <string name="titulo" />
+</resources>

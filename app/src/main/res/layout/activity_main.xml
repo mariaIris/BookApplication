@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btCadastrar"
+        android:layout_width="175dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:text="CADASTRAR" />
+
+    <Button
+        android:id="@+id/btListar"
+        android:layout_width="175dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center"
+        android:text="LISTAR" />
+
+    <Button
+        android:id="@+id/btAutoComplete"
+        android:layout_width="175dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center"
+        android:text="AUTOCOMPLETE" />
+
+    <Button
+        android:id="@+id/btListView"
+        android:layout_width="175dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center"
+        android:text="LISTVIEW" />
+
+    <Button
+        android:id="@+id/btRecyclerView"
+        android:layout_width="175dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10sp"
+        android:layout_gravity="center"
+        android:text="RECYCLERVIEW" />
+
+    <Button
+        android:id="@+id/btSwipeDragDrop"
+        android:layout_width="175dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10sp"
+        android:text="@string/swipe_e_dragdrop"
+        android:layout_gravity="center"
+        tools:text="SWIPE" />
+
+    <Button
+        android:id="@+id/btPageView"
+        android:layout_width="175dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10sp"
+        android:text="@string/swipe_e_dragdrop"
+        android:layout_gravity="center"
+        tools:text="PAGEVIEW" />
+
+</LinearLayout>
